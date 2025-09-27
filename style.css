@@ -1,10 +1,16 @@
 body {
     font-size: 15pt;
+    max-width: 100%;
 }
 .dati{
     border-bottom: 3px solid rebeccapurple;
     border-left: 10px solid rebeccapurple;
     padding-left: 5px;
     display: block;
-    
+}
+
+@media(max-width: 600px){
+    body{
+    font-size: 13pt;
+    }
 }
