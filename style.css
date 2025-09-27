@@ -2,10 +2,9 @@ body {
     font-size: 15pt;
 }
 .dati{
-    width: 100%;
     border-bottom: 3px solid rebeccapurple;
     border-left: 10px solid rebeccapurple;
     padding-left: 5px;
-    
+    display: block;
     
 }
