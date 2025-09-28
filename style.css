@@ -2,11 +2,53 @@ body {
     font-size: 15pt;
     max-width: 100%;
 }
+
+h1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border: 1px solid black;
+    background: linear-gradient(to left, rebeccapurple, black);
+    color: white;
+}
+
+.testo{
+    width: 100%;
+}
+
+.foto{
+    max-width: 15%;
+    height: auto;
+}
+
+.normativa{
+    font-size: 8pt;
+    margin-top: 14%;
+}
+
 .dati{
     border-bottom: 3px solid rebeccapurple;
     border-left: 10px solid rebeccapurple;
     padding-left: 5px;
     display: block;
+}
+
+ul.scuola{
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.scuola li::before{
+    content: attr(pr-sc);
+    display: inline-block;
+    width: 6rem;
+    margin-right: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.studio{
+    margin-top: 2%;
 }
 
 @media(max-width: 600px){
