@@ -38,17 +38,29 @@ ul.scuola{
     padding-left: 0;
 }
 
+ul.scuola li{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    grid-template-areas:
+        "bullet titolo"
+        "bullet dettagli";
+    column-gap: 10px;
+}
+
 ul.scuola li::before{
     content: attr(pr-sc);
-    display: inline-block;
-    width: 6rem;
-    margin-right: 5px;
     font-weight: bold;
+    grid-area: bullet;
     color: #333;
 }
 
-.studio{
-    margin-top: 2%;
+ul.scuola .titolo{
+    grid-area: titolo;
+    font-weight: bold;
+}
+
+ul.scuola .dettagli{
+    grid-area: dettagli;
 }
 
 @media(max-width: 600px){
