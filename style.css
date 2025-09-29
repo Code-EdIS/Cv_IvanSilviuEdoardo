@@ -12,6 +12,9 @@ h1{
     color: white;
 }
 
+a{
+    color: rebeccapurple;
+}
 .testo{
     width: 100%;
 }
@@ -29,13 +32,15 @@ h1{
 .dati{
     border-bottom: 3px solid rebeccapurple;
     border-left: 10px solid rebeccapurple;
+    border-bottom-left-radius: 10%;
     padding-left: 5px;
     display: block;
 }
 
 .formazione{
     border-bottom: 3px solid rebeccapurple;
-    border-left: 10px solid rebeccapurple;
+    border-right: 10px solid rebeccapurple;
+    border-bottom-right-radius: 10%;
     padding-left: 5px;
     display: block;
 }
