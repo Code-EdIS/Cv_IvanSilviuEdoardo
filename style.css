@@ -75,6 +75,14 @@ ul.scuola .dettagli{
     grid-area: dettagli;
 }
 
+.azienda, .exp{
+    font-weight: bold;
+}
+
+.descrizione{
+    border-bottom: 2px solid black;
+}
+
 @media(max-width: 600px){
     body{
     font-size: 13pt;
