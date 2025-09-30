@@ -87,6 +87,26 @@ ul.scuola .dettagli{
     border-bottom: 2px solid black;
 }
 
+.testo{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+}
+
+.tipo{
+    display: flex;
+    padding-right: 0.5rem;
+    margin: 0 auto;
+    border-right: 1.5px solid black;
+}
+
+.come{
+    display: flex;
+    padding-left: 0.5rem;
+    margin: 0 auto;
+    border-left: 1.5px solid black;
+}
+
 @media(max-width: 600px){
     body{
     font-size: 13pt;
