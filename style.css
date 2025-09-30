@@ -87,24 +87,14 @@ ul.scuola .dettagli{
     border-bottom: 2px solid black;
 }
 
-.testi{
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 3px solid black;
+table{
+    border-collapse: collapse;
 }
 
-.tipo{
-    display: flex;
-    padding-right: 0.5rem;
-    margin: 0 auto;
-    border-right: 1.5px solid black;
-}
-
-.come{
-    display: flex;
-    padding-left: 0.5rem;
-    margin: 0 auto;
-    border-left: 1.5px solid black;
+th, td{
+    border: 2px solid purple;
+    padding: 0.3rem;
+    background-color: #dFdFdF;
 }
 
 @media(max-width: 600px){
