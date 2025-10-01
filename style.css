@@ -7,7 +7,6 @@ h1{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    border: 1px solid black;
     background: linear-gradient(to left, rebeccapurple, black);
     color: white;
 }
@@ -29,7 +28,7 @@ a{
     margin-top: 14%;
 }
 
-.dati, .esperienze{
+.dati, .esperienze, .certificazioni{
     border-bottom: 3px solid rebeccapurple;
     border-left: 10px solid rebeccapurple;
     border-bottom-left-radius: 10%;
@@ -37,11 +36,13 @@ a{
     display: block;
 }
 
-.h2{
+h2{
+    font-weight: 1000;
     border-bottom: 3px solid rebeccapurple;
+    margin: 0;
 }
 
-.formazione{
+.formazione, .skill, .progetti{
     border-bottom: 3px solid rebeccapurple;
     border-right: 10px solid rebeccapurple;
     border-bottom-right-radius: 10%;
@@ -87,12 +88,25 @@ ul.scuola .dettagli{
     border-bottom: 2px solid black;
 }
 
-table{
+.tabelleSkill{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin: 0.2rem 2.1rem 1rem auto;
+}
+
+.abilità{
     border-collapse: collapse;
+    margin-right: auto;
+}
+
+.lingue{
+    border-collapse: collapse;
+    margin-left: auto;
 }
 
 th, td{
-    border: 2px solid purple;
+    border: 3px solid rebeccapurple;
     padding: 0.3rem;
     background-color: #dFdFdF;
 }
