@@ -1,5 +1,5 @@
 body {
-    font-size: 15pt;
+    font-size: 20pt;
     max-width: 100%;
 }
 
@@ -92,7 +92,6 @@ ul.scuola .dettagli{
     display: flex;
     justify-content: space-between;
     gap: 0.5rem;
-    overflow-x: auto;
     margin: 0.2rem 2.1rem 1rem auto;
 }
 
@@ -115,5 +114,8 @@ th, td{
 @media(max-width: 600px){
     body{
     font-size: 13pt;
+    }
+    .tabelleSkill{
+        overflow-x: auto;
     }
 }
