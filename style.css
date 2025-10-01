@@ -92,7 +92,8 @@ ul.scuola .dettagli{
     display: flex;
     justify-content: space-between;
     gap: 0.5rem;
-    margin: 0.2rem 2.1rem 1rem auto;
+    margin: 0.2rem 3.5rem 1rem auto;
+    max-width: 100;
 }
 
 .abilità{
