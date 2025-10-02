@@ -4,7 +4,7 @@ body {
 }
 
 img{
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -111,7 +111,7 @@ ul.scuola .dettagli{
     margin-left: auto;
 }
 
-th, td{
+.tAb{
     border: 3px solid rebeccapurple;
     padding: 0.3rem;
     background-color: #dFdFdF;
