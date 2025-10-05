@@ -39,12 +39,13 @@ a{
     border-bottom-left-radius: 10%;
     padding-left: 5px;
     display: block;
+    border-top: none;
 }
 
 h2{
     font-weight: 1000;
     border-bottom: 3px solid rebeccapurple;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .formazione, .skill, .progetti{
@@ -97,13 +98,18 @@ ul.scuola .dettagli{
     display: flex;
     justify-content: space-between;
     gap: 0.5rem;
-    margin: 0.2rem 3.5rem 1rem auto;
+    margin: 1rem 3.5rem 1rem 1rem;
     max-width: 100%;
 }
 
 .abilità{
     border-collapse: collapse;
     margin-right: auto;
+}
+
+.certificati{
+    border-collapse: collapse;
+    margin: 1rem 1rem 1rem 1rem;
 }
 
 .lingue{
