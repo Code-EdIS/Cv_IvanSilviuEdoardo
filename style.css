@@ -34,8 +34,7 @@ a{
 }
 
 .normativa{
-    font-size: 1pt;
-    margin-top: 14%;
+    font-size: 18pt;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -133,6 +132,9 @@ ul.scuola .dettagli{
 @media(max-width: 600px){
     body{
     font-size: 13pt;
+    }
+    .normativa{
+        font-size: 3pt;
     }
     .tabelleSkill{
         overflow-x: auto;
